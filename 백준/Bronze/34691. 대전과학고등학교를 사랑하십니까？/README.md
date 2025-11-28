@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 32412 KB, 시간: 36 ms
+메모리: 2024 KB, 시간: 24 ms
 
 ### 분류
 
@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2025년 11월 28일 14:52:52
+2025년 11월 28일 15:40:34
 
 ### 문제 설명
 
@@ -45,7 +45,7 @@
 
 <p>입력되는 문자열은 <span style="color:#e74c3c;"><code>animal</code></span>, <span style="color:#e74c3c;"><code>tree</code></span>, <span style="color:#e74c3c;"><code>flower</code></span>, <span style="color:#e74c3c;"><code>end</code></span> 중 하나이며, <span style="color:#e74c3c;"><code>end</code></span>는 입력의 마지막 줄에만 항상 주어진다. <span style="color:#e74c3c;"><code>end</code></span>는 질문이 아니며, 처리하지 않는다.</p>
 
-<p>질문은 $1$회 이상 주어지며, $1\,000$회 이상 주어지지 않는다.</p>
+<p>질문은 <mjx-container class="MathJax" jax="CHTML" style="font-size: 109%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c31"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$1$</span></mjx-container>회 이상 주어지며, <mjx-container class="MathJax" jax="CHTML" style="font-size: 109%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-mstyle><mjx-mspace style="width: 0.167em;"></mjx-mspace></mjx-mstyle><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mstyle scriptlevel="0"><mspace width="0.167em"></mspace></mstyle><mn>000</mn></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$1\,000$</span></mjx-container>회 이상 주어지지 않는다.</p>
 
 ### 출력 
 
