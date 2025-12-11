@@ -2,11 +2,11 @@ import sys
 input=lambda:sys.stdin.readline().rstrip()
 for i in range(int(input())):
     n=int(input())
+    rlt="Round 1"
     if n<=25:
-        print("Case #%d: %s" % (i+1,"World Finals"))
+        rlt="World Finals"
     elif n<=1000:
-        print("Case #%d: %s" % (i+1,"Round 3"))
+        rlt="Round 3"
     elif n<=4500:
-        print("Case #%d: %s" % (i+1,"Round 2"))
-    else:
-        print("Case #%d: %s" % (i+1,"Round 1"))
+        rlt="Round 2"
+    print("Case #%d: %s" % (i+1,rlt))
