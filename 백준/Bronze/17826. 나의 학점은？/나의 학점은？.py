@@ -1,18 +1,18 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
 arr=[*map(int,input().split())]
-idx=arr.index(int(input()))
-if idx+1<=5:
+idx=arr.index(int(input()))+1
+if idx<=5:
     print("A+")
-elif idx+1<=15:
+elif idx<=15:
     print("A0")
-elif idx+1<=30:
+elif idx<=30:
     print("B+")
-elif idx+1<=35:
+elif idx<=35:
     print("B0")
-elif idx+1<=45:
+elif idx<=45:
     print("C+")
-elif idx+1<=48:
+elif idx<=48:
     print("C0")
 else:
     print("F")
