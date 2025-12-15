@@ -1,13 +1,11 @@
-#include <iostream>
-#include <cmath>
-using namespace std;
+#include <stdio.h>
+#include <math.h>
 int main(void) {
-    int t;
-    double a,b;
-    cin>>t;
+    int t,a,b;
+    scanf("%d",&t);
     for(int i=0;i<t;i++) {
-        cin>>a>>b;
-        cout<<(int)pow(a/b,2)<<"\n";
+        scanf("%d %d",&a,&b);
+        printf("%d\n",(int)pow(a/b,2));
     }
     return 0;
 }
