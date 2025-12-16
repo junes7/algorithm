@@ -1,12 +1,10 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
 a,b,c,n=map(int,input().split())
-cnt=0
-for i in range(1,n//a+1):
-    for j in range(1,n//b+1):
-        for k in range(1,n//c+1):
-            if a*i+b*j+c*k==n:
-                cnt=1
-                print(cnt)
-                exit(0)
-print(cnt)
+dp=[0]*(300+1)
+dp[a]=dp[b]=dp[c]=1
+for i in range(a,n+1):
+    for j in [a,b,c]:
+        if i>=j and dp[i-j]:
+            dp[i]=1
+print(dp[n])
