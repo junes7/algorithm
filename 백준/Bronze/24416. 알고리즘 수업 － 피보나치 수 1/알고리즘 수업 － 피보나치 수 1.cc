@@ -1,20 +1,13 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-int fibo(int n) {
-    vector<int> f(n + 1, 0);
-    f[1] = 1, f[2] = 1;
-    for (int i = 3; i < n + 1; i++) {
-        f[i] = f[i - 1] + f[i - 2];
-    }
-    return f[n];
-}
-int fibonacci(int n) {
-    return n - 2;
-}
 int main(void) {
     int n;
-    cin >> n;
-    cout << fibo(n) << ' ' << fibonacci(n) << "\n";
+    cin>>n;
+    vector<int> fibo(n+1);
+    fibo[1]=fibo[2]=1;
+    for(int i=3;i<n+1;i++)
+        fibo[i]=fibo[i-1]+fibo[i-2];
+    cout<<fibo[n]<<' '<<n-2;
     return 0;
 }
