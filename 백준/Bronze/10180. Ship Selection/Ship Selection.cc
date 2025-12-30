@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 int main(void) {
-    int T, N, D, v, f, c, cnt;
-    cin >> T;
-    for (int i = 0; i < T; i++) {
-        cin >> N >> D;
-        cnt = 0;
-        for (int j = 0; j < N; j++) {
-            cin >> v >> f >> c;
-            if (v * f / c >= D)
-                cnt += 1;
+    int t,n,d,v,f,c,cnt;
+    cin>>t;
+    for(int i=0;i<t;i++) {
+        cin>>n>>d;
+        cnt=0;
+        for(int j=0;j<n;j++) {
+            cin>>v>>f>>c;
+            if(v*f/c>=d)
+                cnt+=1;
         }
-        cout << cnt << "\n";
+        cout<<cnt<<"\n";
     }
     return 0;
 }
