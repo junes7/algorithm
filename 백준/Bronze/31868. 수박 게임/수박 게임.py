@@ -1,6 +1,6 @@
 import sys
-input=lambda:sys.stdin.readline().rstrip()
+input=lambda:sys.stdin.readline().rstrip("\n")
 n,k=map(int,input().split())
-for i in range(n-1):
+for _ in range(n-1):
     k//=2
 print(k)
