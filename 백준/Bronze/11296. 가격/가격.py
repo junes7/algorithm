@@ -1,10 +1,10 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip("\n")
-dic={'R':0.45,'G':0.3,'B':0.2,'Y':0.15,'O':0.1,'W':0.05}
+dic={'R':0.55,'G':0.7,'B':0.8,'Y':0.85,'O':0.9,'W':0.95}
 for _ in range(int(input())):
     ori,dot,vou,pri=input().split()
     ori=float(ori)
-    ori*=(1-dic[dot])
+    ori*=dic[dot]
     if vou=='C':
         ori*=0.95
     ori*=100
