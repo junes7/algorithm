@@ -1,14 +1,14 @@
-N = int(input())
-A = input().split()
+from sys import stdin as s
+from collections import deque
+N = int(s.readline())
+cards = deque(map(int, s.readline().split()))
+card_num = 1
 removed = 0
-for i in range(N):
-    if i == N - removed:
-        print(removed)
-        quit()
-    while A[i] != str(i + 1):
-        del A[i]
+while cards:
+    if cards[0] == card_num:
+        cards.popleft()
+        card_num += 1
+    else:
+        cards.popleft()
         removed += 1
-        if i == N - removed:
-            print(removed)
-            quit()
 print(removed)
