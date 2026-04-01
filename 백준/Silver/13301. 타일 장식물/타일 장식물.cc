@@ -7,7 +7,7 @@ int main(void) {
     for (int i = 0; i < n - 1; i++) {
         t = a;
         a = b;
-        b += t;
+        b = b + t;
     }
     cout << (a + b) * 2;
     return 0;
