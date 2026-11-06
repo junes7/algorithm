@@ -1,2 +1,2 @@
 N=float(input())
-print("{0:.1f}".format(N*30.48))
+print(f"{N*30.48:.1f}")
