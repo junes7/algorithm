@@ -1,3 +1,5 @@
 a,b=3,5
-a,b=b,a
+tmp=a
+a=b
+b=tmp
 print(a,b,sep="\n")
