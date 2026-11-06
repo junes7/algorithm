@@ -1,2 +1,2 @@
 N=float(input())
-print(f"{N:.2f}")
+print("{0:.2f}".format(N))
