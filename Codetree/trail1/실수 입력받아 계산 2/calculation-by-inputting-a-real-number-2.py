@@ -1,2 +1,2 @@
 a=float(input())
-print("%.2f" % (a+1.5))
+print("{0}".format(a+1.5))
