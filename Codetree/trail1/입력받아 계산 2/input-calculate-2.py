@@ -1,3 +1,3 @@
-a,b=input().split()
-a,b=int(a),int(b)
+li=input().split()
+a,b=int(li[0]),int(li[1])
 print(a*b)
