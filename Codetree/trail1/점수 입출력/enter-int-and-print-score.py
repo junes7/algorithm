@@ -1,2 +1,2 @@
-n=int(input())
-print("Your score is %d point." % n)
+n=input()
+print("Your score is %s point." % n)
