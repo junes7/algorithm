@@ -1,2 +1,2 @@
-scn=input().split('-')
-print(scn[0]+scn[1])
+scn1,scn2=map(int,input().split('-'))
+print(scn1,scn2,sep='')
