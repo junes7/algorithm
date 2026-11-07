@@ -1,3 +1,3 @@
 S=input()
 T=input()
-print(T,S,sep="\n")
+print("%s\n%s" % (T,S))
