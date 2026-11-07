@@ -1,3 +1,2 @@
-arr=input().split()
-A,B=int(arr[0]),int(arr[1])
+A,B=map(int,input().split())
 print(A,B,A+B)
