@@ -1,3 +1,3 @@
 a=float(input())
 b=float(input())
-print("{0:.2f}".format(a+b))
+print(f"{a+b:.2f}")
