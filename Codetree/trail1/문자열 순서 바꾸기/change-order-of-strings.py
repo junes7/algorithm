@@ -1,3 +1,3 @@
 S=input()
 T=input()
-print("%s\n%s" % (T,S))
+print("{0}\n{1}".format(T,S))
