@@ -1,2 +1,2 @@
 y,m,d=map(int,input().split('.'))
-print(m,d,y,sep='-')
+print(f"{m}-{d}-{y}")
