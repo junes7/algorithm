@@ -1,2 +1,5 @@
-m,d,y=map(int,input().split('-'))
+date=input().split('-')
+m=int(date[0])
+d=int(date[1])
+y=int(date[2])
 print(y,m,d,sep='.')
