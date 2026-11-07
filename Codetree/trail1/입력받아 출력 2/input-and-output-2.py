@@ -1,2 +1,4 @@
-scn1,scn2=map(int,input().split('-'))
-print(scn1,scn2,sep='')
+scn=input().split('-')
+scn1=int(scn[0])
+scn2=int(scn[1])
+print(f"{scn1}{scn2}")
