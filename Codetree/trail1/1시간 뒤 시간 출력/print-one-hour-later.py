@@ -1,3 +1,2 @@
-arr=input().split(':')
-h,m=int(arr[0]),int(arr[1])
+h,m=map(int,input().split(':'))
 print(f"{h+1}:{m}")
