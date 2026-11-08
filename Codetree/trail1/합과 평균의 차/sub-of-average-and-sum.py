@@ -1,3 +1,3 @@
-arr=list(map(int,input().split()))
-t,avg=sum(arr),sum(arr)//len(arr)
-print(f"{t}\n{avg}\n{t-avg}")
+arr=input().split()
+a,b,c=int(arr[0]),int(arr[1]),int(arr[2])
+print((a+b+c),(a+b+c)//3,(a+b+c)-(a+b+c)//3,sep='\n')
