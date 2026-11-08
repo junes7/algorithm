@@ -1,4 +1,4 @@
-n,i=int(input()),3
-while i<=n:
-    print(i,end=' ')
-    i+=3
+n,i=int(input()),1
+while i<=n//3:
+    print(3*i,end=' ')
+    i+=1
