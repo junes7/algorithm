@@ -1,4 +1,4 @@
-N,b=int(input()),1
-while b<=N:
-    print(b,end=' ')
-    b+=1
+N,i=int(input()),1
+while i<=N:
+    print(i,end=' ')
+    i+=1
