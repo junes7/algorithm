@@ -1,3 +1,3 @@
 N=int(input())
-for i in range(1,6):
-    print(N*i,end=' ')
+for i in range(N,6*N,N):
+    print(i,end=' ')
