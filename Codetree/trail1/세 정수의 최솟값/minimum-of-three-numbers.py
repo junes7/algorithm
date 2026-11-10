@@ -1,7 +1,7 @@
 a,b,c=map(int,input().split())
-mi=a
-if b<mi:
-    mi=b
-if c<mi:
-    mi=c
-print(mi)
+if a<=b and a<=c:
+    print(a)
+elif b<=a and b<=c:
+    print(b)
+else:
+    print(c)
