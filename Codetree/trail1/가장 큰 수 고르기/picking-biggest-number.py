@@ -1,6 +1,7 @@
+import sys
 arr=[*map(int,input().split())]
-mval=arr[0]
-for c in arr[1:]:
+mval=-sys.maxsize
+for c in arr:
     if mval<c:
         mval=c
 print(mval)
